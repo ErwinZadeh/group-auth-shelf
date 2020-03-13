@@ -30,9 +30,7 @@ class InfoPage extends Component {
       });
   }
 
-  handleChange =(event, propertyName)=>{
-    console.log(propertyName, event.target.value);
-    
+  handleChange =(event, propertyName)=>{ 
     this.setState({
       ...this.state,
       objectToSend:{...this.state.objectToSend,
